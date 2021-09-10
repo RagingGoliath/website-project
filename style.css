@@ -1,0 +1,73 @@
+/* A css comment style */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+/* Objects can be grouped together for easier formatting */
+* {
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+}
+
+h1{
+    color: red;
+    font-size: 80px;
+}
+
+h2{
+    color: red;
+    font-size: 50px;
+}
+
+h4 {
+    color: whitesmoke;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 10px;
+}
+
+/* Use * to apply to EVERYTHING */
+
+body{
+    background-image: url("images/alien_derelict.jpg");
+    background-size: 100%;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 10px;
+}
+
+/* use .[name] to make a class override to edit specific parts */
+/* .toplink1 {
+    text-align: left;
+    color: cornflowerblue;
+    font-size: 18px;
+    padding-right: 60px;
+}
+
+.toplink2 {
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 18px;
+} */
+
+
+/* Use #[name] for an ID, can only be ONE of the IDd object on a page */
+
+#navbar{
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+img {
+    border: 5px solid whitesmoke;
+}
